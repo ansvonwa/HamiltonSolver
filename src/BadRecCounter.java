@@ -2,7 +2,7 @@ import java.io.File;
 import java.io.IOException;
 
 public class BadRecCounter extends PathCounter {
-	int count, connected = 0;
+	private int count, connected = 0;
 	private Graph graph;
 	private boolean[] alreadyConnected;
 	private int[][] connections;

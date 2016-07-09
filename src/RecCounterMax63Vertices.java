@@ -7,7 +7,6 @@ public class RecCounterMax63Vertices extends PathCounter {
 	private int[][] connections;
 	private IntArrayMap buffer = new IntArrayMap(3);
 	private int maxBitsToBuf, bufMod = 5;
-	static final long MIN_LONG = Long.MIN_VALUE;
 	private long[] connectionMask;
 
 

@@ -98,7 +98,6 @@ public class Graph {
 
 	@Override
 	public String toString() {
-		// return super.toString() + Arrays.toString(connections);
 		StringBuilder sb = new StringBuilder(super.toString());
 		sb.append("[from ");
 		sb.append(start);
